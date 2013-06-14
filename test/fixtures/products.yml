@@ -1,0 +1,25 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  name: MyString
+  photo: MyString
+  product_id: 1
+  producer_name: MyString
+  primary_category: MyString
+  secondary_category: MyString
+  volume_in_milliliters: 1
+  price: 1
+  alcohol_content: 1
+  is_kosher: false
+
+two:
+  name: MyString
+  photo: MyString
+  product_id: 1
+  producer_name: MyString
+  primary_category: MyString
+  secondary_category: MyString
+  volume_in_milliliters: 1
+  price: 1
+  alcohol_content: 1
+  is_kosher: false
