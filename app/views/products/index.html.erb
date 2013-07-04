@@ -1,6 +1,9 @@
-<h3>All Products</h3>
+<h3>Every Product at the LCBO</h3>
 <p>We're rollin...</p>
-<ul><% @products.each do |product| %>
-	<li><%= product.name %></li>
-	<% end %>
+
+<ul class="products">
+  <% @products.each do |product| %>
+      <p><%= link_to product.name, product %></p>
+      <p><%= link_to image_tag(product.photo), product %></p>
+  <% end %>
 </ul>
